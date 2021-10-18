@@ -68,7 +68,7 @@ window = Tk()
 
 # Configuring the window appearance
 window.title("Disappearing Text Writing App")
-# window.iconbitmap("./icon/icon.ico")
+window.iconbitmap("./icon/icon.ico")
 window.minsize(width=400, height=300)
 window.config(bg="white")
 
