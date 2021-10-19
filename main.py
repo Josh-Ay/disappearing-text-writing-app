@@ -70,6 +70,7 @@ window = Tk()
 window.title("Disappearing Text Writing App")
 window.iconbitmap("./icon/icon.ico")
 window.minsize(width=400, height=300)
+window.resizable(False, False)
 window.config(bg="white")
 
 # Creating a canvas
