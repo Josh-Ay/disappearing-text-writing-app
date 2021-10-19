@@ -43,7 +43,7 @@ def start_writing():
 
     start_btn.destroy()
 
-    input_text_box = Text(width=50, height=15, padx=10, font=font(16), borderwidth=0, relief="groove")
+    input_text_box = Text(width=50, height=15, padx=10, font=font(16), borderwidth=0, relief="groove", wrap=WORD)
     input_text_box.focus_set()
 
     input_text_box.bind("<KeyPress>", lambda *args: update_monitor())
